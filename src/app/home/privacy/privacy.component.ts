@@ -16,7 +16,8 @@ export class PrivacyComponent implements OnInit {
     console.log(this.activatedRoute.snapshot.url[0].path);
     console.log("omer");
     console.log(this.activatedRoute.snapshot.url[this.activatedRoute.snapshot.url.length - 1].path);
-    console.log(this.activatedRoute.snapshot.url.pop()?.path);
+    // console.log(this.activatedRoute.snapshot.url.pop()?.path);
+    console.log(this.activatedRoute.snapshot);
   }
 
 }
