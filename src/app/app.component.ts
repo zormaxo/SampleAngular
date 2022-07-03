@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ShopService } from './shop/shop.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SampleAngular';
+  deneme;
+
+  constructor(private shopService: ShopService) {
+    
+    this.deneme = shopService.omer;
+  }
 }
