@@ -8,9 +8,10 @@ import { PrivacyComponent } from './home/privacy/privacy.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegisterComponent } from './register/register.component';
 import { ShopModule } from './shop/shop.module';
+import { BigsortDirective } from './bigsort.directive';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, PrivacyComponent, RegisterComponent],
+  declarations: [AppComponent, HomeComponent, PrivacyComponent, RegisterComponent, BigsortDirective],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, ShopModule],
   providers: [],
   bootstrap: [AppComponent],
